@@ -1,0 +1,23 @@
+{
+    "name": "yesela/yii2-dynamictabs",
+    "description": "Create dynamictabs",
+    "keywords": [
+        "yii2",
+        "bootstrap",
+        "dynamictabs"
+    ],
+    "homepage": "https://github.com/yesela/yii2-dynamictabs",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yesela"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "yesela\\dynamictabs\\": ""
+        }
+    }
+}

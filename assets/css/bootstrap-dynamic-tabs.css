@@ -1,0 +1,46 @@
+.dynamic-tabs {
+	width: 100%;
+	float: left;
+}
+.dynamic-tabs-container {
+	position: relative;
+}
+.dynamic-tabs-container .dynamic-tabs {
+	padding-right: 50px;
+}
+.dynamic-tabs-container .tabs-dropdown {
+	position: absolute;
+	right: 0;
+	margin-right: 0 !important;
+}
+.dynamic-tabs-container .tabs-dropdown.navbar-nav {
+	margin: 0 !important;
+}
+
+.dynamic-tabs-container .tabs-dropdown .dropdown-toggle {
+	position: relative;
+	display: block;    
+}
+
+@media only screen and (max-width: 767px) {
+	.dynamic-tabs-container .tabs-dropdown .dropdown-menu {
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		bottom: 20px;
+		left: 20px;
+		padding-top: 10px;
+		padding-bottom:10px;
+		overflow-y: scroll;
+	}	
+
+	.dynamic-tabs-container .tabs-dropdown .dropdown-menu li a {
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	
+	.dynamic-tab {
+		width: 100%;
+	}
+}
+
