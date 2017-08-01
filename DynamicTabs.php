@@ -108,7 +108,7 @@ $('[data-toggle="tabajax"]').click(function(e) {
         loadIcon = $(this).find('i').attr('class');
         loadTitle = $(this).find('span').text();
     if (typeof loadUrl === 'undefined') {
-        loadUrl = $(this).data('href');
+        loadUrl = $(this).data('url');
         loadTitle = $(this).data('title');
         loadIcon = $(this).find('span').attr('class');
     }
